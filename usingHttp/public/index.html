@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="inbuiltServices">
+<head>
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+</head>
+
+<body >
+<div ng-controller="InbuiltServicesCotroller as ibs">
+<form ng-submit="ibs.submit()">
+	<h2><span ng-bind="ibs.content"></span></h2>
+    <input type="submit" value="Submit">
+</form>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+</script>
+<script src="script.js"></script>
+</body>
+</html>

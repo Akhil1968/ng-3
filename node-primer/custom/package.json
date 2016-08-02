@@ -1,0 +1,16 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "description": "an application demostrating custom modules",
+  "main": "testMaths.js",
+  "scripts": {
+    "test": "nodemon testMaths.js"
+  },
+  "keywords": [
+    "node",
+    "custom",
+    "module"
+  ],
+  "author": "Akhil",
+  "license": "MIT"
+}
